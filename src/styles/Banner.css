@@ -1,0 +1,29 @@
+.banner {
+    background-image: url('https://via.placeholder.com/1500x400');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+  }
+  
+  .banner-text {
+    text-align: center;
+  }
+  
+  .banner-button {
+    padding: 10px 20px;
+    background-color: #f76c6c;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .banner-button:hover {
+    background-color: #d9534f;
+  }
+  
