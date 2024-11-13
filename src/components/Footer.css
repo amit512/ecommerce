@@ -1,0 +1,58 @@
+.flash-sales {
+    text-align: center;
+  }
+  
+  .countdown {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .product-card {
+    width: 200px;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 3px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .current-price {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+  }
+  
+  .view-all {
+    background-color: red;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  

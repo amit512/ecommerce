@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .banner {
+    height: 250px;
+  }
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+
+  .flash-sales h2,
+  .categories h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .category-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-right input {
+    width: 100%;
+  }
+
+  .product-card {
+    width: 100%;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.banner {
+  animation: fadeIn 1s ease-in-out;
+}
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
