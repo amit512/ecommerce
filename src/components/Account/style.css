@@ -1,0 +1,21 @@
+.account-container {
+    display: flex;
+  }
+  
+  .account-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .account-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .account-content form input,
+  .account-content form button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+  }

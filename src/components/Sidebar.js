@@ -1,28 +1,18 @@
+// components/Sidebar.js
 import React from 'react';
-import './SidebarBanner.css';
-import { FaAngleRight } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
+import './Sidebar.css';
 
 const Sidebar = () => {
-  const categories = [
-    "Woman's Fashion",
-    "Men's Fashion",
-    'Electronics',
-    'Home & Lifestyle',
-    'Medicine',
-    'Sports & Outdoor',
-    "Baby's & Toys",
-    'Groceries & Pets',
-    'Health & Beauty',
-  ];
-
   return (
     <div className="sidebar">
+      <h3>Manage My Account</h3>
       <ul>
-        {categories.map((category, index) => (
-          <li key={index}>
-            {category} <FaAngleRight className="arrow-icon" />
-          </li>
-        ))}
+        <li><NavLink to="/account/profile">My Profile</NavLink></li>
+        <li><NavLink to="/account/address-book">Address Book</NavLink></li>
+        <li><NavLink to="/account/payment-options">My Payment Options</NavLink></li>
+        <li><NavLink to="/account/orders">My Orders</NavLink></li>
+        <li><NavLink to="/account/wishlist">My Wishlist</NavLink></li>
       </ul>
     </div>
   );

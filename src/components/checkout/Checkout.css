@@ -1,0 +1,98 @@
+    /* App.css */
+.checkout-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .billing-details, .order-summary {
+    width: 45%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  form, .order-summary {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .order-summary .items, .order-summary .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .order-summary .total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .payment-options {
+    margin-top: 20px;
+  }
+  
+  .payment-options label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .coupon {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .coupon input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .coupon button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .place-order {
+    width: 100%;
+    padding: 15px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
